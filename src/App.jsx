@@ -5,7 +5,7 @@ import { SearchResults } from './Components/SearchResults'
 import flightData from './flightsData.json';
 
 function App() {
-  const currentDate = new Date().toISOString().split('T')[0]; ///current data showing in the datepicker
+  const currentDate = new Date().toISOString().split('T')[0]; ///current date showing in the datepicker
   const [selectedDate, setSelectedDate] = useState(currentDate);
   const [activeButton, setActiveButton] = useState(null); 
   const [departureAirport,setDepartureAirport]=useState('');
